@@ -4,7 +4,7 @@
 - OS : macOS Mojave 10.14.6     
 - IDE : XCode 11.1  
 
-### Setting  
+## Setting  
 ### 0. Install Homebrew  
 `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
