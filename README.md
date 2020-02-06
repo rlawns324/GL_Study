@@ -18,8 +18,8 @@
   - `General` -> `Frameworks and Libraries` -> Click `+`  
   - Search `OpenGL`, add `OpenGL.framework'  
   - Click `+` -> `Add Other..` -> `Add Files...` -> `Shift + Command + G` -> Go to the folder `/usr/local/Cellar/`  
-  - `glew` -> '(Your Version, ex: 2.1.0_1)` -> `lib` -> `libGLEW.2.1.0.dylib` 
-  - `glfw` -> '(Your Version, ex: 3.3.2)` -> `lib` -> `libglfw.3.3.dylib` 
+  - `glew` -> `(Your Version, ex: 2.1.0_1)` -> `lib` -> `libGLEW.2.1.0.dylib` 
+  - `glfw` -> `(Your Version, ex: 3.3.2)` -> `lib` -> `libglfw.3.3.dylib` 
   
   - Go `Build Settings`  
   - Search `Header Search Path`, add both   
