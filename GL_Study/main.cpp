@@ -9,6 +9,7 @@
 
 extern GLuint LoadShaders(const char* vsource, const char* fsource);
 const GLuint WIDTH = 800, HEIGHT = 600;
+void processInput(GLFWwindow *window);
 
 int main()
 {
@@ -83,6 +84,7 @@ int main()
     // Game loop
     while ( !glfwWindowShouldClose( window ) )
     {
+        processInput(window);
         // Check if any events have been activiated (key pressed, mouse moved etc.) and call corresponding response functions
         glfwPollEvents( );
         
@@ -109,4 +111,10 @@ int main()
     glfwTerminate( );
     
     return EXIT_SUCCESS;
+}
+
+void processInput(GLFWwindow *window)
+{
+    if(glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
+        glfwSetWindowShouldClose(window, true);
 }
