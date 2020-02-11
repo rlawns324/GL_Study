@@ -57,5 +57,4 @@ DerivedData/
 
 ## Gcc Patch
 /*.gcno
-*.xcodeproj/
 DerivedData/
