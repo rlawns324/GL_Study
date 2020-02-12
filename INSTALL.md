@@ -6,7 +6,8 @@
 <details>  
 <summary> macOS </summary>
 <div markdown="1"> 
-  
+
+### 우선 실행`command + R`해보고, 안될 경우 아래 가이드대로 환경설정
 ## Setting  
 ### 0. Install Homebrew  
 `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
@@ -46,8 +47,9 @@
   - 만약 안된다면, `Build Settings` -> `preprocessor macros` 검색 -> `Debug`에다가
   `F_SHADER=\"${PROJECT_DIR}/GL_Study/shader.frag\"`  
   `V_SHADER=\"${PROJECT_DIR}/GL_Study/shader.vert\"` 을 추가해줍니다.(스샷 참고)
-  <img src="img/_11.jpeg" width="500">  
-    - 위와같이 매크로가 설정돼있기 때문에 shader파일명을 변경하거나, 매크로 변수명을 변경하면 그에따라 환경설정을 다시 해줘야 합니다.
+    <img src="img/_11.jpeg" width="500">  
+  
+  - 위와같이 매크로가 설정돼있기 때문에 shader파일명을 변경하거나, 매크로 변수명을 변경하면 그에따라 환경설정을 다시 해줘야 합니다.
     
   [**Reference**](https://blog.naver.com/ross1573/221460518505)  
   </div>
