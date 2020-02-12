@@ -57,6 +57,8 @@
 		CEA2936A23EBC9AA00CE48EE /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../usr/local/Cellar/glfw/3.3.2/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
 		CEA2936D23EBCAEE00CE48EE /* GL_Study.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GL_Study.entitlements; sourceTree = "<group>"; };
 		CEA2937123EBCF3200CE48EE /* GLShader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GLShader.cpp; sourceTree = "<group>"; };
+		CEEAF8F023F3ECE100797430 /* shader.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader.frag; sourceTree = "<group>"; };
+		CEEAF8F123F3ECE100797430 /* shader.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader.vert; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,8 @@
 		CEA2935B23EBC8C600CE48EE /* GL_Study */ = {
 			isa = PBXGroup;
 			children = (
+				CEEAF8F023F3ECE100797430 /* shader.frag */,
+				CEEAF8F123F3ECE100797430 /* shader.vert */,
 				CEA2936D23EBCAEE00CE48EE /* GL_Study.entitlements */,
 				CEA2935C23EBC8C600CE48EE /* main.cpp */,
 				CEA2937123EBCF3200CE48EE /* GLShader.cpp */,
@@ -335,6 +339,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H42A43ZCNQ;
 				ENABLE_HARDENED_RUNTIME = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"V_SHADER=\\\"${PROJECT_DIR}/GL_Study/shader.vert\\\"",
+					"F_SHADER=\\\"${PROJECT_DIR}/GL_Study/shader.frag\\\"",
+					"$(inherited)",
+				);
 				HEADER_SEARCH_PATHS = (
 					/usr/local/Cellar/glew/2.1.0_1/include/,
 					/usr/local/Cellar/glfw/3.3.2/include/,
