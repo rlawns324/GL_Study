@@ -46,7 +46,7 @@
     <img src="img/_12.jpeg" width="500">  
     
 ### 3. Shader Macro  
-  - `V_SHADER`와 `F_SHADER` 라는 macro를 통해 shader 파일들을 실행파일이 읽어 올 수 있습니다.  
+  - `V_SHADER`와 `F_SHADER` 라는 macro를 통해 shader 파일들을 실행파일이 읽어 올 수 있습니다. 따라서 매 실행시마다 실행파일 경로 찾아서 복사해야하는 번거로움이 없어졌습니다.  
   - 만약 안된다면, `Build Settings` -> `preprocessor macros` 검색 -> `Debug`에다가
   `F_SHADER=\"${PROJECT_DIR}/GL_Study/shader.frag\"`  
   `V_SHADER=\"${PROJECT_DIR}/GL_Study/shader.vert\"` 을 추가해줍니다.(스샷 참고)
