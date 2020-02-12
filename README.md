@@ -42,10 +42,6 @@
   `/usr/local/Cellar/glew/(Your ver)2.1.0_1/include/`  
      <img src="img/_10.png" width="500">  
 
-### 3. locate shader source 
-  - Products -> Right Click `GL_Study`(exec file) -> `Show in Finder`  
-  - copy `shader.vert`, `shader.frag` to above exec directory  
-    <img src="img/_11.png" width="500">  
   - Build & Run  
     <img src="img/_12.png" width="500">  
   
