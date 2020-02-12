@@ -13,6 +13,9 @@ void processInput(GLFWwindow *window);
 
 int main()
 {
+    std::cout <<"Shader MACRO Test"<<std::endl;
+    std::cout<< V_SHADER <<std::endl;
+    std::cout<< F_SHADER <<std::endl;
     
     // Init GLFW
     glfwInit( );
@@ -54,7 +57,7 @@ int main()
     glViewport( 0, 0, screenWidth, screenHeight );
     
     
-    GLuint shaderProgram = LoadShaders("shader.vert", "shader.frag");
+    GLuint shaderProgram = LoadShaders(V_SHADER, F_SHADER);
     glUseProgram(shaderProgram);
     
     // Set up vertex data (and buffer(s)) and attribute pointers
