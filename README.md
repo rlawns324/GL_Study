@@ -70,4 +70,4 @@
   - [learnopengl.com](https://learnopengl.com/)
 - [2019-1 컴퓨터그래픽스 한정현](https://www.youtube.com/playlist?list=PLYEC1V9tJOl03WLDoUEKbiYW_Xt4W6LTl)
   - [강의노트 PPT](http://media.korea.ac.kr/books/)  
-- [홍정모 - 그래픽스 강의들 비교](https://m.blog.naver.com/atelierjpro/221759298564)
+- [홍정모 - 그래픽스 강의들 비교](https://blog.naver.com/atelierjpro/221759298564)
