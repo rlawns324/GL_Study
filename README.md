@@ -1,8 +1,8 @@
 ## CE OpenGL Study  
-#### Installation  
+### Installation  
 - [INSTALL.md](https://github.com/rlawns324/GL_Study/blob/master/INSTALL.md)  
 
-#### Contents  
+### Contents  
 <details>  
 <summary> Getting Started </summary>
 <div markdown="1">   
@@ -65,7 +65,7 @@
 </div>
 </details>  
 
-#### Other resources
+### Other resources
 - [하인라인블로그 Learn OpenGL 번역](https://heinleinsgame.tistory.com/category/OpenGL)
   - [learnopengl.com](https://learnopengl.com/)
 - [2019-1 컴퓨터그래픽스 한정현](https://www.youtube.com/playlist?list=PLYEC1V9tJOl03WLDoUEKbiYW_Xt4W6LTl)
