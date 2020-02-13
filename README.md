@@ -66,8 +66,7 @@
 </details>  
 
 ### Other resources
-- [하인라인블로그 Learn OpenGL 번역](https://heinleinsgame.tistory.com/category/OpenGL)
-  - [learnopengl.com](https://learnopengl.com/)
+- [learnopengl.com(위 자료 원문 영어 사이트)](https://learnopengl.com/)
 - [2019-1 컴퓨터그래픽스 한정현](https://www.youtube.com/playlist?list=PLYEC1V9tJOl03WLDoUEKbiYW_Xt4W6LTl)
   - [강의노트 PPT](http://media.korea.ac.kr/books/)  
 - [홍정모 - 그래픽스 강의들 비교](https://blog.naver.com/atelierjpro/221759298564)
