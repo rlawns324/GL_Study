@@ -6,17 +6,18 @@
 <details>  
 <summary> Getting Started </summary>
 <div markdown="1">   
-
-  - [OpenGL 소개](https://heinleinsgame.tistory.com/4?category=757483)
-  - [Window 생성](https://heinleinsgame.tistory.com/5?category=757483)
-  - [Hello Window](https://heinleinsgame.tistory.com/6?category=757483)
-  - [Hello Triangle](https://heinleinsgame.tistory.com/7?category=757483)
+  
+  - 김 준(2020.02.19)
+    - [OpenGL 소개](https://heinleinsgame.tistory.com/4?category=757483)  
+    - [Window 생성](https://heinleinsgame.tistory.com/5?category=757483)  
+    - [Hello Window](https://heinleinsgame.tistory.com/6?category=757483)  
+    - [Hello Triangle](https://heinleinsgame.tistory.com/7?category=757483)  
   - [Shaders](https://heinleinsgame.tistory.com/8?category=757483)
   - [Textures](https://heinleinsgame.tistory.com/9?category=757483)
   - [변환(Transformation)](https://heinleinsgame.tistory.com/10?category=757483)
   - [좌표 시스템](https://heinleinsgame.tistory.com/11?category=757483)
   - [카메라](https://heinleinsgame.tistory.com/12?category=757483)
-  - [복습](https://heinleinsgame.tistory.com/4?category=757483)  
+  - [복습](https://heinleinsgame.tistory.com/13?category=757483)  
 
 </div>
 </details>  
