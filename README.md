@@ -6,17 +6,18 @@
 <details>  
 <summary> Getting Started </summary>
 <div markdown="1">   
-
-  - [OpenGL 소개](https://heinleinsgame.tistory.com/4?category=757483)
-  - [Window 생성](https://heinleinsgame.tistory.com/5?category=757483)
-  - [Hello Window](https://heinleinsgame.tistory.com/6?category=757483)
-  - [Hello Triangle](https://heinleinsgame.tistory.com/7?category=757483)
+  
+  - 김 준(2020.02.19)
+    - [OpenGL 소개](https://heinleinsgame.tistory.com/4?category=757483)  
+    - [Window 생성](https://heinleinsgame.tistory.com/5?category=757483)  
+    - [Hello Window](https://heinleinsgame.tistory.com/6?category=757483)  
+    - [Hello Triangle](https://heinleinsgame.tistory.com/7?category=757483)  
   - [Shaders](https://heinleinsgame.tistory.com/8?category=757483)
   - [Textures](https://heinleinsgame.tistory.com/9?category=757483)
   - [변환(Transformation)](https://heinleinsgame.tistory.com/10?category=757483)
   - [좌표 시스템](https://heinleinsgame.tistory.com/11?category=757483)
   - [카메라](https://heinleinsgame.tistory.com/12?category=757483)
-  - [복습](https://heinleinsgame.tistory.com/4?category=757483)  
+  - [복습](https://heinleinsgame.tistory.com/13?category=757483)  
 
 </div>
 </details>  
@@ -66,8 +67,7 @@
 </details>  
 
 ### Other resources
-- [하인라인블로그 Learn OpenGL 번역](https://heinleinsgame.tistory.com/category/OpenGL)
-  - [learnopengl.com](https://learnopengl.com/)
+- [learnopengl.com(위 자료 원문 영어 사이트)](https://learnopengl.com/)
 - [2019-1 컴퓨터그래픽스 한정현](https://www.youtube.com/playlist?list=PLYEC1V9tJOl03WLDoUEKbiYW_Xt4W6LTl)
   - [강의노트 PPT](http://media.korea.ac.kr/books/)  
 - [홍정모 - 그래픽스 강의들 비교](https://blog.naver.com/atelierjpro/221759298564)
