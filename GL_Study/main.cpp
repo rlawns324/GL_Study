@@ -10,7 +10,7 @@
 extern GLuint LoadShaders(const char* vsource, const char* fsource);
 const GLuint WIDTH = 800, HEIGHT = 600;
 void processInput(GLFWwindow *window);
-
+void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 int main()
 {
     std::cout <<"Shader MACRO Test"<<std::endl;
@@ -26,7 +26,7 @@ int main()
     glfwWindowHint( GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE );
     glfwWindowHint( GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE );
 
-    glfwWindowHint( GLFW_RESIZABLE, GL_FALSE );
+    glfwWindowHint( GLFW_RESIZABLE, GL_TRUE );
     
     // Create a GLFWwindow object that we can use for GLFW's functions
     GLFWwindow *window = glfwCreateWindow( WIDTH, HEIGHT, "LearnOpenGL", nullptr, nullptr );
@@ -54,7 +54,7 @@ int main()
     }
     
     // Define the viewport dimensions
-    glViewport( 0, 0, screenWidth, screenHeight );
+    glViewport(0, 0, screenWidth, screenHeight );
     
     
     GLuint shaderProgram = LoadShaders(V_SHADER, F_SHADER);
@@ -83,13 +83,13 @@ int main()
     glBindBuffer( GL_ARRAY_BUFFER, 0 ); // Note that this is allowed, the call to glVertexAttribPointer registered VBO as the currently bound vertex buffer object so afterwards we can safely unbind
     
     glBindVertexArray( 0 ); // Unbind VAO (it's always a good thing to unbind any buffer/array to prevent strange bugs)
-    
+    glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
     // Game loop
     while ( !glfwWindowShouldClose( window ) )
     {
         processInput(window);
         // Check if any events have been activiated (key pressed, mouse moved etc.) and call corresponding response functions
-        glfwPollEvents( );
+        glfwPollEvents();
         
         // Render
         // Clear the colorbuffer
@@ -120,4 +120,10 @@ void processInput(GLFWwindow *window)
 {
     if(glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         glfwSetWindowShouldClose(window, true);
+}
+
+void framebuffer_size_callback(GLFWwindow* window, int width, int height)
+{
+    std::cout << "framebuffer_size_callback"<<std::endl;
+    glViewport(0, 0, width, height);
 }
