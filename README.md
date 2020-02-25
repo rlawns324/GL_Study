@@ -71,6 +71,6 @@
 - [2019-1 컴퓨터그래픽스 한정현](https://www.youtube.com/playlist?list=PLYEC1V9tJOl03WLDoUEKbiYW_Xt4W6LTl)
   - [강의노트 PPT](http://media.korea.ac.kr/books/)  
 - [홍정모 - 그래픽스 강의들 비교](https://blog.naver.com/atelierjpro/221759298564)
-- [정종필 - 감마가어디감마,](https://chulin28ho.tistory.com/477)
+- [정종필 - 감마가어디감마](https://chulin28ho.tistory.com/477)
     - [영상1](https://www.youtube.com/watch?v=Xwlm5V-bnBc)
     - [영상2](https://www.youtube.com/watch?v=oVyqLhVrjhY)
