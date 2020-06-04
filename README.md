@@ -1,4 +1,7 @@
 ## CE OpenGL Study  
+
+- GL을 돌릴 수 있는 여러가지 환경이 있지만 이 저장소는 XCode(Cpp) 기준으로 되어있습니다. 하지만 XCode(Cpp)에 환경설정하기가 번거로우니, [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) 혹은 [ColabGL](https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/differentiable-parameterizations/appendix/colab_gl.ipynb) 과 같은 본인이 선호하는 다른 환경을 이용해도 됩니다.
+
 ### Installation  
 - [INSTALL.md](https://github.com/rlawns324/GL_Study/blob/master/INSTALL.md)  
 
@@ -7,11 +10,10 @@
 <summary> Getting Started </summary>
 <div markdown="1">   
   
-  - 김 준(2020.02.19)
-    - [OpenGL 소개](https://heinleinsgame.tistory.com/4?category=757483)  
-    - [Window 생성](https://heinleinsgame.tistory.com/5?category=757483)  
-    - [Hello Window](https://heinleinsgame.tistory.com/6?category=757483)  
-    - [Hello Triangle](https://heinleinsgame.tistory.com/7?category=757483)  
+  - [OpenGL 소개](https://heinleinsgame.tistory.com/4?category=757483)  
+  - [Window 생성](https://heinleinsgame.tistory.com/5?category=757483)  
+  - [Hello Window](https://heinleinsgame.tistory.com/6?category=757483)  
+  - [Hello Triangle](https://heinleinsgame.tistory.com/7?category=757483)  
   - [Shaders](https://heinleinsgame.tistory.com/8?category=757483)
   - [Textures](https://heinleinsgame.tistory.com/9?category=757483)
   - [변환(Transformation)](https://heinleinsgame.tistory.com/10?category=757483)
