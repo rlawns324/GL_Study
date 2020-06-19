@@ -1,9 +1,10 @@
-## CE OpenGL Study  
+## GL Study  
+- learnopengl 자료를 바탕으로 GL 스터디. 구현 플랫폼이 다양하므로, 각자 선호하는 것으로 합니다. 
+  
+- [XCode Project Install Guide](https://github.com/rlawns324/GL_Study/blob/master/INSTALL.md)  
+- [WebGL](https://webglfundamentals.org/webgl/lessons/ko/webgl-fundamentals.html)  
+- [Colab GL](https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/differentiable-parameterizations/appendix/colab_gl.ipynb)  
 
-- GL을 돌릴 수 있는 여러가지 환경이 있지만 이 저장소는 XCode(Cpp) 기준으로 되어있습니다. 하지만 XCode(Cpp)에 환경설정하기가 번거로우니, [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) 혹은 [ColabGL](https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/differentiable-parameterizations/appendix/colab_gl.ipynb) 과 같은 본인이 선호하는 다른 환경을 이용해도 됩니다.
-
-### Installation  
-- [INSTALL.md](https://github.com/rlawns324/GL_Study/blob/master/INSTALL.md)  
 
 ### Contents  
 <details>  
@@ -68,7 +69,7 @@
 </div>
 </details>  
 
-### Other resources
+### Other contents
 - [learnopengl.com(위 자료 원문 영어 사이트)](https://learnopengl.com/)
 - [2019-1 컴퓨터그래픽스 한정현](https://www.youtube.com/playlist?list=PLYEC1V9tJOl03WLDoUEKbiYW_Xt4W6LTl)
   - [강의노트 PPT](http://media.korea.ac.kr/books/)  
