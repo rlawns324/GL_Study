@@ -1,9 +1,10 @@
-## CE OpenGL Study  
+## GL Study  
+- learnopengl 자료를 바탕으로 GL 스터디. 구현 플랫폼이 다양하므로, 각자 선호하는 것으로 합니다. 
+  
+- [XCode Project Install Guide](https://github.com/rlawns324/GL_Study/blob/master/INSTALL.md)  
+- [WebGL](https://webglfundamentals.org/webgl/lessons/ko/webgl-fundamentals.html)  
+- [Colab GL](https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/differentiable-parameterizations/appendix/colab_gl.ipynb)  
 
-- GL을 돌릴 수 있는 여러가지 환경이 있지만 이 저장소는 XCode(Cpp) 기준으로 되어있습니다. 하지만 XCode(Cpp)에 환경설정하기가 번거로우니, [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) 혹은 [ColabGL](https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/differentiable-parameterizations/appendix/colab_gl.ipynb) 과 같은 본인이 선호하는 다른 환경을 이용해도 됩니다.
-
-### Installation  
-- [INSTALL.md](https://github.com/rlawns324/GL_Study/blob/master/INSTALL.md)  
 
 ### Contents  
 <details>  
@@ -68,11 +69,12 @@
 </div>
 </details>  
 
-### Other resources
+### Other contents
 - [learnopengl.com(위 자료 원문 영어 사이트)](https://learnopengl.com/)
 - [2019-1 컴퓨터그래픽스 한정현](https://www.youtube.com/playlist?list=PLYEC1V9tJOl03WLDoUEKbiYW_Xt4W6LTl)
   - [강의노트 PPT](http://media.korea.ac.kr/books/)  
-- [홍정모 - 그래픽스 강의들 비교](https://blog.naver.com/atelierjpro/221759298564)
-- [정종필 - 감마가어디감마](https://chulin28ho.tistory.com/477)
-    - [영상1](https://www.youtube.com/watch?v=Xwlm5V-bnBc)
-    - [영상2](https://www.youtube.com/watch?v=oVyqLhVrjhY)
+- [홍정모 - 그래픽스 강의들 비교](https://blog.naver.com/atelierjpro/221759298564)  
+- [The Book Of Shdaers](https://thebookofshaders.com/?lan=kr)  
+- [awesome-web-graphics 저장소](https://github.com/taenykim/awesome-web-graphics)  
+- [이을 - 손에 잡히는 쉐이더](https://opentutorials.org/module/3659)  
+- [NDC2014 - 뉴비탈출 넘버원: 그래픽스 프로그래밍 길들이기](http://ndcreplay.nexon.com/NDC2014/sessions/NDC2014_0096.html#c=NDC2014&t%5B%5D=%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
