@@ -41,6 +41,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE0D2843252AA715008D56AB /* 2-3.HelloWindow */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "2-3.HelloWindow"; sourceTree = "<group>"; };
 		CE2E1B2223EC4CE100E314FA /* glew.pc */ = {isa = PBXFileReference; lastKnownFileType = text; path = glew.pc; sourceTree = "<group>"; };
 		CE2E1B2323EC4CE100E314FA /* libGLEW.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libGLEW.dylib; sourceTree = "<group>"; };
 		CE2E1B2623EC4CE100E314FA /* glew-config.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = "glew-config.cmake"; sourceTree = "<group>"; };
@@ -136,6 +137,7 @@
 		CEA2935B23EBC8C600CE48EE /* GL_Study */ = {
 			isa = PBXGroup;
 			children = (
+				CE0D2843252AA715008D56AB /* 2-3.HelloWindow */,
 				CEEAF8F023F3ECE100797430 /* shader.frag */,
 				CEEAF8F123F3ECE100797430 /* shader.vert */,
 				CEA2936D23EBCAEE00CE48EE /* GL_Study.entitlements */,
